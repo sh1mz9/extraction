@@ -21,7 +21,7 @@ from openpyxl import load_workbook
 # LangChain imports for enhanced vector store creation
 from langchain_community.vectorstores import Chroma
 from langchain_ollama import OllamaEmbeddings
-from langchain.retrievers import BM25Retriever, EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever, EnsembleRetriever
 from langchain.schema import Document
 import chromadb
 
