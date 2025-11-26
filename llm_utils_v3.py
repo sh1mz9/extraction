@@ -13,7 +13,7 @@ from langchain_ollama import OllamaLLM
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
-from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain_community.retrievers.multi_query import MultiQueryRetriever
 
 # ================================================================== #
 # 1. Enhanced LLM Initialization with Better Error Handling         #
