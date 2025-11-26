@@ -22,7 +22,7 @@ from openpyxl import load_workbook
 from langchain_community.vectorstores import Chroma
 from langchain_ollama import OllamaEmbeddings
 from langchain_community.retrievers import BM25Retriever
-from langchain_core.retrievers import EnsembleRetriever #new
+from langchain.retrievers.ensemble import EnsembleRetriever #new
 from langchain.schema import Document
 import chromadb
 
