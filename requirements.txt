@@ -17,4 +17,5 @@ uvicorn[standard]
 python-multipart
 Sentence-Transformers
 rank_bm25
+pymupdf
 ##ollama pull nomic-embed-text and ollama pull smollm
